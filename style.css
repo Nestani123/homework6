@@ -13,8 +13,7 @@
     font-style: normal;
   }
   
-  
-  
+
 a{
     text-decoration: none;
 }
@@ -29,6 +28,7 @@ color: #FFFFFF;
 
 }
 .page-intro{
+    background-color: ;
     background-image: url(img/Rectangle\ 30.png);
     width: 100%;
     height: 696px;
@@ -47,4 +47,66 @@ margin-top: 409px;
     padding: 32px 16px 0px 16px;
     display: flex;
     justify-content: space-between;
+}
+.page-aticles{
+    background-color: #2A2626;
+    width: 100%;
+    height: 100%;
+
+}
+.article-content{
+    padding: 48px 16px 0px 16px;
+}
+.articles-box{
+    margin-top: 8px;
+}
+.article-pic{
+    width: 93%;
+    height: 40%;
+    margin-top: 24px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: Gentium Book Plus;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.page-about{
+    background-color: #0B0A0A;
+    width: 100%;
+    height: 100%;
+}
+.content-about{
+    padding: 48px 16px 48px 16px;
+}
+.about-pic{
+    display: flex;
+    width: 93%;
+}
+.about-info{
+    font-family: Gentium Book Plus;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: justified;
+color: #FFFFFF;
+}
+.page-contact{
+    background-color:  #2A2626;
+    width: 100%;
+    height: 90px
+}
+.vectors{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-left: 36px;
+    margin-top: 30px;
 }
