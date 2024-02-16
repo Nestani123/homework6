@@ -25,7 +25,6 @@ line-height: 76px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
-
 }
 .page-intro{
     background-color: ;
@@ -58,7 +57,7 @@ margin-top: 409px;
     padding: 48px 16px 0px 16px;
 }
 .articles-box{
-    margin-top: 8px;
+    margin-top: 32px;
 }
 .article-pic{
     width: 93%;
@@ -67,7 +66,6 @@ margin-top: 409px;
 }
 h2{
     display: flex;
-    justify-content: center;
     font-family: Gentium Book Plus;
 font-size: 36px;
 font-weight: 400;
@@ -75,6 +73,9 @@ line-height: 42px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
+}
+.heading-1, .heading-2{
+    justify-content: center;
 }
 .page-about{
     background-color: #0B0A0A;
@@ -88,6 +89,10 @@ color: #FFFFFF;
     display: flex;
     width: 93%;
 }
+.heading-2{
+    margin-top: 40px;
+    justify-content: left;
+}
 .about-info{
     font-family: Gentium Book Plus;
 font-size: 16px;
@@ -96,6 +101,7 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: justified;
 color: #FFFFFF;
+margin-top: 32px;
 }
 .page-contact{
     background-color:  #2A2626;
@@ -107,6 +113,56 @@ color: #FFFFFF;
     justify-content: center;
 }
 .icon{
+    width: 30px;
+    height: 30px;
     margin-left: 36px;
     margin-top: 30px;
+}
+@media only screen and (min-width: 481px){
+    .letter-visitors{
+        font-family: Gentium Book Basic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;        
+        color: #C0B4B4;
+        margin-top: 409px;
+        }
+        .article-pic{
+            width: 44%;
+            height: 52.5%;
+            margin-top: 24px;
+        }
+        .articles-box{
+            padding: 42px 29px 96px 29px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .heading-2{
+            justify-content: left;
+            margin-top: 40px;
+        }
+        h2{
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 56px;
+            letter-spacing: 0em;
+        }
+        .content-about{
+            padding: 96px 29px 96px 29px;
+        }
+        .about-info{
+        margin-top: 42px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: justified;
+        color: #FFFFFF;
+        }
+        .icon{
+            width: 60px;
+            height: 60px;
+        }
 }
