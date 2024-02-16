@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .miltonian-tattoo-regular {
     font-family: "Miltonian Tattoo", serif;
@@ -17,7 +18,27 @@
 a{
     text-decoration: none;
 }
-.strange-letter{
+ul, ol{
+    list-style-type: none;
+
+}
+
+.mob-nav{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.nav-item{
+    font-family: Gentium Book Plus;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-right: 53px;
+}
+.strange-letter-header, .strange-letter-footer{
 font-family: Miltonian Tattoo;
 font-size: 64px;
 font-weight: 400;
@@ -26,8 +47,8 @@ letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
 }
+
 .page-intro{
-    background-color: ;
     background-image: url(img/Rectangle\ 30.png);
     width: 100%;
     height: 696px;
@@ -118,16 +139,27 @@ margin-top: 32px;
     margin-left: 36px;
     margin-top: 30px;
 }
+.nav-list{
+    display: none;
+}
+.article-pic-bigger{
+    display: none;
+}
+.strange-letter-footer{
+display: none;
+}
 @media only screen and (min-width: 481px){
+    .page-intro{
+        background-image: url(img/Rectangle\ 30.png);
+
+        height: 700px;
+    }
     .letter-visitors{
-        font-family: Gentium Book Basic;
         font-size: 40px;
         font-weight: 700;
         line-height: 48px;
-        letter-spacing: 0em;
         text-align: center;        
-        color: #C0B4B4;
-        margin-top: 409px;
+        margin-top: 384px;
         }
         .article-pic{
             width: 44%;
@@ -165,4 +197,143 @@ margin-top: 32px;
             width: 60px;
             height: 60px;
         }
+        .nav-list{
+            display: none;
+        }
+        .article-pic-bigger{
+            display: none;
+        }
+        .strange-letter-footer{
+            display: none;
+            }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .nav-menu{
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        color: #FFFFFF;
+    }
+    .mob-nav{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .nav-item{
+        font-family: Gentium Book Plus;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        margin-right: 53px;
+    }
+    .article-pic, .article-pic-bigger{
+        width: 28%;
+        height: 52.5%;
+        margin-top: 24px;
+    }
+    .article-pic-bigger{
+        display: block;
+    }
+    .about-pic{
+        width: 44%;
+    }
+    .content-big-display{
+        display: inline-block;
+        margin-left: 40px;
+
+    }
+    .content-about{
+        display: flex;
+    }
+    .strange-letter-footer{
+        display: inline;
+        margin-left: 80px;
+    }
+    .icon{
+        display: inline;
+        width: 60px;
+        height: 60px;
+    }
+    .vectors{
+        margin-right: 80px;
+    }
+    .page-contact{
+        display: flex;
+        justify-content: space-between
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .page-intro{
+        background-image: url(img/Rectangle\ 30.png);
+        width: 100%;
+        height: 700px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        color: #FFFFFF;
+    }
+    .mob-nav{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .nav-item{
+        font-family: Gentium Book Plus;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        margin-right: 53px;
+    }
+    .letter-visitors{
+        margin: 323px 80px 96px 80px;
+    }
+    .article-pic, .article-pic-bigger{
+        width: 28%;
+        height: 52.5%;
+        margin-top: 24px;
+    }
+    .article-pic-bigger{
+        display: block;
+    }
+    .about-pic{
+        width: 44%;
+    }
+    .content-big-display{
+        display: inline-block;
+        margin-left: 40px;
+
+    }
+    .content-about{
+        display: flex;
+        margin: 96px 190px 96px 190px;
+    }
+    .strange-letter-footer{
+        display: inline;
+        margin-left: 80px;
+    }
+    .icon{
+        display: inline;
+        width: 60px;
+        height: 60px;
+    }
+    .vectors{
+        margin-right: 80px;
+    }
+    .page-contact{
+        display: flex;
+        justify-content: space-between
+    }
+
+
 }
